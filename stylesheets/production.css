@@ -1,0 +1,700 @@
+@font-face { font-family: FontAwesome; src: url(http://juuso.info/font/fontawesome-webfont.eot?#iefix) format(embedded-opentype), url(http://juuso.info/font/fontawesome-webfont.woff) format(woff), url(http://juuso.info/font/fontawesome-webfont.ttf) format(truetype); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: Flat-UI-Icons-16; src: url(http://juuso.info/fonts/Flat-UI-Icons-16.eot?#iefix) format(embedded-opentype), url(http://juuso.info/fonts/Flat-UI-Icons-16.woff) format(woff), url(http://juuso.info/fonts/Flat-UI-Icons-16.ttf) format(truetype), url(http://juuso.info/fonts/Flat-UI-Icons-16.svg#Flat-UI-Icons-16) format(svg); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: Flat-UI-Icons-24; src: url(http://juuso.info/fonts/Flat-UI-Icons-24.eot?#iefix) format(embedded-opentype), url(http://juuso.info/fonts/Flat-UI-Icons-24.woff) format(woff), url(http://juuso.info/fonts/Flat-UI-Icons-24.ttf) format(truetype), url(http://juuso.info/fonts/Flat-UI-Icons-24.svg#Flat-UI-Icons-24) format(svg); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: Fertigo; src: url(http://juuso.info/font/fertigo_pro_regular-webfont.eot?#iefix) format(embedded-opentype), url(http://juuso.info/font/fertigo_pro_regular-webfont.woff) format(woff), url(http://juuso.info/font/fertigo_pro_regular-webfont.ttf) format(truetype), url(http://juuso.info/font/fertigo_pro_regular-webfont.svg#fertigo_proregular) format(svg); font-weight: normal; font-style: normal; }
+
+@media (min-width: 980px) and (max-width: 1199px) {
+  #content {
+    color: rgb(44, 62, 80);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 25px;
+  }
+
+  #content h1 {
+    font-family: inherit;
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #content p {
+    margin-bottom: 10px;
+  }
+
+  #header {
+    padding: 25px;
+  }
+
+  #header h1 {
+    font-family: Fertigo;
+    font-size: 3em;
+    font-style: italic;
+    padding: 25px;
+  }
+
+  #logo {
+    background-color: rgb(52, 73, 94);
+    border-radius: 75px 75px;
+    height: 125px;
+    width: 125px;
+  }
+
+  #logo-spot {
+    background-color: rgb(26, 188, 156);
+    border-radius: 75px 75px;
+    height: 25px;
+    margin: 75px;
+    position: absolute;
+    width: 25px;
+  }
+
+  .borders {
+    display: inherit;
+  }
+
+  .borders div {
+    background-color: rgb(52, 73, 94);
+  }
+
+  .container {
+    margin: auto;
+    width: 940px;
+  }
+
+  .holder {
+    height: 150px;
+    padding: 25px;
+    width: 300px;
+  }
+
+  .left-border {
+    height: 150px;
+    left: -100px;
+    position: absolute;
+    top: -100px;
+    width: 150px;
+  }
+
+  .left-line {
+    height: 99%;
+    position: absolute;
+    width: 10px;
+  }
+
+  .offset7 {
+    margin: 61.70212765957446%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .right-border {
+    height: 150px;
+    position: absolute;
+    right: -100px;
+    top: -100px;
+    width: 150px;
+  }
+
+  .right-line {
+    height: 99%;
+    position: absolute;
+    right: 0px;
+    width: 10px;
+  }
+
+  .row {
+    background-color: rgb(52, 73, 94);
+    margin: -20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  .row h1 {
+    font-family: inherit;
+    font-size: 32px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .row p {
+    margin-bottom: 15px;
+  }
+
+  .row-fluid {
+    width: 100%;
+  }
+
+  .span12 {
+    box-sizing: border-box;
+    float: left;
+    min-height: 30px;
+    width: 100%;
+  }
+
+  .span3 {
+    box-sizing: border-box;
+    float: left;
+    margin: 76.59574468085106%;
+    min-height: 30px;
+    padding-bottom: 25px;
+    padding-top: 10%;
+    text-align: center;
+    width: 23.404255319148934%;
+  }
+
+  .span3 a {
+    color: rgb(52, 73, 94);
+    font-size: 32px;
+    opacity: 0.5;
+  }
+
+  .span4 {
+    box-sizing: border-box;
+    float: left;
+    min-height: 30px;
+    width: 31.914893617021278%;
+  }
+
+  .top-line {
+    height: 10px;
+  }
+
+  abbr {
+    border-color: rgb(153, 153, 153);
+    border-style: dotted;
+    border-width: 0px;
+    cursor: help;
+  }
+
+  body {
+    background-color: rgb(255, 255, 255);
+    background-image: url(http://juuso.info/images/bg.png);
+    color: rgb(236, 240, 241);
+    font: normal normal normal 14px/1.231 Lato, sans-serif;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.9;
+    overflow: hidden;
+  }
+
+  h1 {
+    color: inherit;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-rendering: optimizelegibility;
+  }
+
+  h2 {
+    color: inherit;
+    font-family: inherit;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    padding: 5px;
+    text-rendering: optimizelegibility;
+  }
+
+  h3 {
+    color: inherit;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+    text-rendering: optimizelegibility;
+    text-transform: uppercase;
+  }
+
+  html {
+    font-size: 100%;
+  }
+
+  i {
+    background-position-x: 0px;
+    background-position-y: 0px;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 25px;
+    height: 25px;
+    padding: 12.5px;
+    width: 25px;
+  }
+
+  p a {
+    color: inherit;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  #content {
+    color: rgb(44, 62, 80);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 25px;
+  }
+
+  #content h1 {
+    font-family: inherit;
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #content p {
+    margin-bottom: 10px;
+  }
+
+  #header {
+    padding: 25px;
+  }
+
+  #header h1 {
+    font-family: Fertigo;
+    font-size: 3em;
+    font-style: italic;
+    padding: 25px;
+  }
+
+  #logo {
+    background-color: rgb(52, 73, 94);
+    border-radius: 75px 75px;
+    height: 125px;
+    width: 125px;
+  }
+
+  #logo-spot {
+    background-color: rgb(26, 188, 156);
+    border-radius: 75px 75px;
+    height: 25px;
+    margin: 75px;
+    position: absolute;
+    width: 25px;
+  }
+
+  .borders {
+    display: inherit;
+  }
+
+  .borders div {
+    background-color: rgb(52, 73, 94);
+  }
+
+  .container {
+    margin: auto;
+    width: 1170px;
+  }
+
+  .holder {
+    height: 150px;
+    padding: 25px;
+    width: 300px;
+  }
+
+  .left-border {
+    height: 150px;
+    left: -100px;
+    position: absolute;
+    top: -100px;
+    width: 150px;
+  }
+
+  .left-line {
+    height: 99%;
+    position: absolute;
+    width: 10px;
+  }
+
+  .offset7 {
+    margin: 62.393162393162385%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .right-border {
+    height: 150px;
+    position: absolute;
+    right: -100px;
+    top: -100px;
+    width: 150px;
+  }
+
+  .right-line {
+    height: 99%;
+    position: absolute;
+    right: 0px;
+    width: 10px;
+  }
+
+  .row {
+    background-color: rgb(52, 73, 94);
+    margin: -30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  .row h1 {
+    font-family: inherit;
+    font-size: 32px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .row p {
+    margin-bottom: 15px;
+  }
+
+  .row-fluid {
+    width: 100%;
+  }
+
+  .span12 {
+    box-sizing: border-box;
+    float: left;
+    min-height: 30px;
+    width: 100%;
+  }
+
+  .span3 {
+    box-sizing: border-box;
+    float: left;
+    margin: 76.92307692307693%;
+    min-height: 30px;
+    padding-bottom: 25px;
+    padding-top: 10%;
+    text-align: center;
+    width: 23.076923076923077%;
+  }
+
+  .span3 a {
+    color: rgb(52, 73, 94);
+    font-size: 32px;
+    opacity: 0.5;
+  }
+
+  .span4 {
+    box-sizing: border-box;
+    float: left;
+    min-height: 30px;
+    width: 31.623931623931625%;
+  }
+
+  .top-line {
+    height: 10px;
+  }
+
+  abbr {
+    border-color: rgb(153, 153, 153);
+    border-style: dotted;
+    border-width: 0px;
+    cursor: help;
+  }
+
+  body {
+    background-color: rgb(255, 255, 255);
+    background-image: url(http://juuso.info/images/bg.png);
+    color: rgb(236, 240, 241);
+    font: normal normal normal 14px/1.231 Lato, sans-serif;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.9;
+    overflow: hidden;
+  }
+
+  h1 {
+    color: inherit;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-rendering: optimizelegibility;
+  }
+
+  h2 {
+    color: inherit;
+    font-family: inherit;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    padding: 5px;
+    text-rendering: optimizelegibility;
+  }
+
+  h3 {
+    color: inherit;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+    text-rendering: optimizelegibility;
+    text-transform: uppercase;
+  }
+
+  html {
+    font-size: 100%;
+  }
+
+  i {
+    background-position-x: 0px;
+    background-position-y: 0px;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 25px;
+    height: 25px;
+    padding: 12.5px;
+    width: 25px;
+  }
+
+  p a {
+    color: inherit;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  #content {
+    color: rgb(44, 62, 80);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 25px;
+  }
+
+  #content h1 {
+    font-family: inherit;
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #content p {
+    margin-bottom: 10px;
+  }
+
+  #header {
+    padding: 25px;
+  }
+
+  #header h1 {
+    font-family: Fertigo;
+    font-size: 3em;
+    font-style: italic;
+    padding: 25px;
+  }
+
+  #logo {
+    background-color: rgb(52, 73, 94);
+    border-radius: 75px 75px;
+    height: 125px;
+    width: 125px;
+  }
+
+  #logo-spot {
+    background-color: rgb(26, 188, 156);
+    border-radius: 75px 75px;
+    height: 25px;
+    margin: 75px;
+    position: absolute;
+    width: 25px;
+  }
+
+  .borders {
+    display: none;
+  }
+
+  .borders div {
+    background-color: rgb(52, 73, 94);
+  }
+
+  .container {
+    margin: auto;
+    width: 724px;
+  }
+
+  .holder {
+    height: 150px;
+    padding: 25px;
+    width: 300px;
+  }
+
+  .left-border {
+    height: 150px;
+    left: -100px;
+    position: absolute;
+    top: -100px;
+    width: 150px;
+  }
+
+  .left-line {
+    height: 99%;
+    position: absolute;
+    width: 10px;
+  }
+
+  .offset7 {
+    margin: 62.70718232044199%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .right-border {
+    height: 150px;
+    position: absolute;
+    right: -100px;
+    top: -100px;
+    width: 150px;
+  }
+
+  .right-line {
+    height: 99%;
+    position: absolute;
+    right: 0px;
+    width: 10px;
+  }
+
+  .row {
+    background-color: rgb(52, 73, 94);
+    margin: -20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  .row h1 {
+    font-family: inherit;
+    font-size: 32px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .row p {
+    margin-bottom: 15px;
+  }
+
+  .row-fluid {
+    width: 100%;
+  }
+
+  .span12 {
+    box-sizing: border-box;
+    float: left;
+    min-height: 30px;
+    width: 100%;
+  }
+
+  .span3 {
+    box-sizing: border-box;
+    float: left;
+    margin: 77.07182320441989%;
+    min-height: 30px;
+    padding-bottom: 25px;
+    padding-top: 10%;
+    text-align: center;
+    width: 22.92817679558011%;
+  }
+
+  .span3 a {
+    color: rgb(52, 73, 94);
+    font-size: 32px;
+    opacity: 0.5;
+  }
+
+  .span4 {
+    box-sizing: border-box;
+    float: left;
+    min-height: 30px;
+    width: 31.491712707182323%;
+  }
+
+  .top-line {
+    height: 10px;
+  }
+
+  abbr {
+    border-color: rgb(153, 153, 153);
+    border-style: dotted;
+    border-width: 0px;
+    cursor: help;
+  }
+
+  body {
+    background-color: rgb(255, 255, 255);
+    background-image: url(http://juuso.info/images/bg.png);
+    color: rgb(236, 240, 241);
+    font: normal normal normal 14px/1.231 Lato, sans-serif;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.9;
+    overflow: hidden;
+  }
+
+  h1 {
+    color: inherit;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-rendering: optimizelegibility;
+  }
+
+  h2 {
+    color: inherit;
+    font-family: inherit;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    padding: 5px;
+    text-rendering: optimizelegibility;
+  }
+
+  h3 {
+    color: inherit;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+    text-rendering: optimizelegibility;
+    text-transform: uppercase;
+  }
+
+  html {
+    font-size: 100%;
+  }
+
+  i {
+    background-position-x: 0px;
+    background-position-y: 0px;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-size: 25px;
+    height: 25px;
+    padding: 12.5px;
+    width: 25px;
+  }
+
+  p a {
+    color: inherit;
+  }
+
+}
