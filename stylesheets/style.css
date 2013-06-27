@@ -107,3 +107,7 @@ a:hover {
 .pure-u-2-5 {
   margin-bottom: 2em;
 }
+
+footer {
+  text-align: right;
+}
