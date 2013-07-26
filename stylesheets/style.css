@@ -6,10 +6,9 @@ body {
   color: #ECF0F1;
   font-family: 'Lato', sans-serif;
   margin: 0;
-  padding: 50px;
-  overflow-x: hidden;
   color: #34495e;
   font: 14px/1.231 "Lato", sans-serif;
+  margin-bottom: 3em;
 }
 
 @font-face {
@@ -23,25 +22,43 @@ body {
   font-style: normal;
 }
 
-.container:nth-child(1) {
-  padding-top: 2em;
+.name {
+  font-size: 7em;
+}
+
+.pure-u-1-5 {
+  margin-top: 3em;
+}
+
+.client h2 {
+  text-decoration: underline;
+}
+
+.content {
+  text-align: center;
+}
+
+.cube {
+  margin: 1em;
+  box-shadow: 0px 0px 1px #888888;
+  margin-top: 7%;
+  display: inline-table;
+  background-color: white;
+  width: 60%;
+  padding: .7em;
 }
 
 #logo {
   margin: auto;
   width: 10em;
   height: 10em;
-  border-radius: 7em;
+  border-radius: 1em;
   background-color: #34495E;
 }
 
-.visible-desktop {
-  text-align: right;
-}
-
-.visible-desktop a {
-  color: #CCC;
-  text-decoration: none;
+#details {
+  width: 8em;
+  margin: auto;
 }
 
 #logo h1 {
@@ -69,30 +86,13 @@ body {
   background-color: #1ABC9C;
 }
 
-.container {
-  margin: auto;
-}
-
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
 }
 
 a {
+  text-decoration: none;
   color: #1ABC9C;
-  text-decoration: underline;
-}
-
-i {
-  text-decoration: none;
-  font-size: 5em;
-}
-
-a.icon {
-  text-decoration: none;
-}
-
-a.icon:hover {
-  opacity: 0.7;
 }
 
 a:hover {
@@ -102,12 +102,4 @@ a:hover {
 
 #logo abbr {
   border-bottom: 0px;
-}
-
-.pure-u-2-5 {
-  margin-bottom: 2em;
-}
-
-footer {
-  text-align: right;
 }
